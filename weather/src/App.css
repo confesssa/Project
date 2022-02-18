@@ -5,3 +5,9 @@ margin: 30px 50px;
 .header {
   width: 100%;
 }
+
+/* .button:hover {
+  background: rgba(186,210,255,.6);
+  -webkit-transition: .2s linear;
+  transition: .2s linear;
+} */
