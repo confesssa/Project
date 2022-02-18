@@ -7,20 +7,20 @@ function App() {
   return (
     <div className='wrapper d-flex justify-content-center'>
       <header className='header d-flex justify-content-between'>
-        <div className='ButtonsPanel'>
-          <div className="btn-group mr-2" role="group" aria-label="First group">
+        <div className='ButtonsPanel d-flex'>
+          <div className="btns" role="group" aria-label="First group">
             <button type="button" className="button btn bg-transparent btn-outline-light">
             <FontAwesomeIcon icon={faArrowRotateRight} />
             </button>
           </div>
 
-          <div className="btn-group mr-5" role="group" aria-label="Second group">
+          <div className="btns" role="group" aria-label="Second group">
             <button type="button" className="button btn bg-transparent btn-outline-light">EN</button>
             <button type="button" className="button btn bg-transparent btn-outline-light">RU</button>
             <button type="button" className="button btn bg-transparent btn-outline-light">BY</button>
           </div>
 
-          <div className="btn-group mr-2" role="group" aria-label="Third group">
+          <div className="btns" role="group" aria-label="Third group">
             <button type="button" className="btn bg-transparent btn-outline-light">°F</button>
             <button type="button" className="btn bg-transparent btn-outline-light">°C</button>
           </div>

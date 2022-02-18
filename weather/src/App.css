@@ -1,5 +1,5 @@
 .wrapper {
-margin: 30px 50px;
+padding: 30px 50px;
 }
 
 .header {
@@ -11,3 +11,7 @@ margin: 30px 50px;
   -webkit-transition: .2s linear;
   transition: .2s linear;
 } */
+
+.btns:not(:last-child) {
+  margin-right: 15px;
+}
