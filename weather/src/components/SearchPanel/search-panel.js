@@ -6,7 +6,7 @@ function SearchPanel() {
   return (
     <div className='SearchPanel d-flex'>
       <div className="btns input-group">
-        <input type="text" className="bg-transparent form-control" aria-label="Input group example" aria-describedby="btnGroupAddon" />
+        <input type="text" placeholder="Search city" className="bg-transparent form-control" aria-label="Input group example" aria-describedby="btnGroupAddon" />
         <div className="input-group-prepend">
           <div className="input-group-text" id="btnGroupAddon">@</div>
         </div>
