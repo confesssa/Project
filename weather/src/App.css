@@ -7,16 +7,6 @@
   padding: 0 5%;
 }
 
-/* .button:hover {
-  background: rgba(186,210,255,.6);
-  -webkit-transition: .2s linear;
-  transition: .2s linear;
-} */
-
-.btns:not(:last-child) {
-  margin-right: 15px;
-}
-
 @media (max-width: 1024px) {
   .main {
     flex-direction: column;
@@ -27,19 +17,4 @@
   .header {
     flex-direction: column;
   }
-
-  .buttons-panel {
-    justify-content: center;
-    margin-bottom: 20px;
-  }
-
-  .search-panel {
-    justify-content: center;
-  }
-}
-
-.image {
-  height: 350px;
-  width: 350px;
-  background-color: white;
 }

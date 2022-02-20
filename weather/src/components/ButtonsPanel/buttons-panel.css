@@ -1,0 +1,16 @@
+/* .button:hover {
+  background: rgba(186,210,255,.6);
+  -webkit-transition: .2s linear;
+  transition: .2s linear;
+} */
+
+.btns:not(:last-child) {
+  margin-right: 15px;
+}
+
+@media (max-width: 764px) {
+  .buttons-panel {
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+}
