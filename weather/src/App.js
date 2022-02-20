@@ -1,9 +1,9 @@
 import React from 'react';
-import SearchPanel from './components/SearchPanel/search-panel.js';
-import ButtonsPanel from './components/ButtonsPanel/buttons-panel.js';
-import WeatherBlock from './components/WeatherBlock/weather-block.js';
-import MapBlock from './components/MapBlock/map-block.js';
-import './App.css';
+import SearchPanel from './components/search-panel/search-panel.js';
+import ButtonsPanel from './components/buttons-panel/buttons-panel.js';
+import WeatherBlock from './components/weather-block/weather-block.js';
+import MapBlock from './components/map-block/map-block.js';
+import './app.css';
 
 
 function App() {

@@ -1,4 +1,5 @@
 import React from "react";
+import './weather-block.css';
 
 function WeatherBlock() {
   return (
@@ -18,15 +19,15 @@ function WeatherBlock() {
       </div>
     </div>
     <div className='row'>
-      <div className='col'>
+      <div className='col text-center'>
         <p>Tuesday</p>
         <p><span>7°</span></p>
       </div>
-      <div className='col'>
+      <div className='col text-center'>
         <p>Tuesday</p>
         <p><span>7°</span></p>
       </div>
-      <div className='col'>
+      <div className='col text-center'>
         <p>Tuesday</p>
         <p><span>7°</span></p>
       </div>
