@@ -2,7 +2,7 @@ import React from 'react';
 import SearchPanel from './components/search-panel/search-panel.js';
 import ButtonsPanel from './components/buttons-panel/buttons-panel.js';
 import WeatherBlock from './components/weather-block/weather-block.js';
-import MapBlock from './components/map-block/map-block.js';
+// import MapBlock from './components/map-block/map-block.js';
 import './app.css';
 
 
@@ -15,7 +15,7 @@ function App() {
       </header>
       <main className='main d-flex justify-content-between'>
         <WeatherBlock/>
-        <MapBlock/>
+        {/* <MapBlock/> */}
       </main>
     </div>
   )

@@ -1,35 +1,12 @@
 import React from "react";
+import GenerateDate from '../generate-date/generate-date.js'
 import './weather-block.css';
 
-function WeatherBlock() {
-  const week = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
-  const months = [
-    'January',
-    'February',
-    'March',
-    'April',
-    'May',
-    'June',
-    'July',
-    'August',
-    'September',
-    'October',
-    'November',
-    'December',
-  ];
-  let today = new Date();
-  let getDate = () => {
-    let hours = today.getHours().toString().length < 2 ? `0${today.getHours()}`: today.getHours();
-    let minutes = today.getMinutes().toString().length < 2 ? `0${today.getMinutes()}`: today.getMinutes();
-    let seconds = today.getSeconds().toString().length < 2 ? `0${today.getSeconds()}`: today.getSeconds();
-    return `${week[today.getDay()]} ${today.getDate()} ${months[today.getMonth()]} ${hours}:${minutes}:${seconds}`;
-  };
-  let currentDay = getDate();
-
+const WeatherBlock = () => {
   return (
     <div className='weather-block'>
     <p>Minsk, Belarus</p>
-    <p className="date">{currentDay}</p>
+    <GenerateDate/>
     <div className='row'>
       <div className='col'>10°</div>
       <div className='col'>
