@@ -1,3 +1,3 @@
-# project
+# weather app
 
-# updates
+deploy is [here](https://confesssa.github.io/weather/)
